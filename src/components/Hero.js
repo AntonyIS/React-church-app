@@ -1,18 +1,21 @@
 import React,{Component} from 'react';
-import ReactDom from 'react-dom';
+
+
 
 class Hero extends Component {
     
     render(){
         return(
-            <div id="hero-section">
-                <div className="container">
-                    <div className="hero-text">
+            <div id="hero-section" className="pt-5">
+                <div className="container text-center pt-5">
+                    <div className="hero-text pt-5 mb-5">
                         <h1>Ruaraka Friends Church.</h1>
                         <h1>God above all.</h1> 
+
+                        <h3>Worship with us from 8:00 AM</h3>
                     </div>
                     <div className="hero-btns">
-                        <button className="btn btn-info ">Sermons</button>
+                        <button className="btn btn-info mr-3">Sermons</button>
                         <button className="btn btn-outline-info ">Prayer groups</button>
                     </div>
                 </div>
@@ -20,3 +23,5 @@ class Hero extends Component {
         )
     }
 }
+
+export default Hero;
