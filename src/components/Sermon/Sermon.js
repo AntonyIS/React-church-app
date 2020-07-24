@@ -1,23 +1,38 @@
 import React from 'react';
+import Card from './Card'
 import './Sermon.css';
-import Card from './Card';
 
-const sermon = (props) =>{
+
+const sermon = (props)=>{
     return (
-        <section id="Sermon">
-            <div class="sermon-top container">
-                <div className="row mb-3">
-                    {props.mycards.map((card, index)=>{
-                        return(
-                             <div className="col-md-3 pt-5">
-                                 <Card name={card.name} speaker={card.speaker} text={card.text} />
-                            </div>
-                        )
-                    })}
+        <section id="sermonId" className="sermon">
+            <div className="top-section" id="sermon-top">
+
+            </div>
+            <div className="bottom-section" id="sermon-bottom">
+                <div className="container pt-3">
+                    <h1>Latest Sermons</h1>
+                    <div className="row pt-5">
+                        {
+                           props.sermonData.map((sermon, index)=>{
+                            return (
+                                <div className="col-md-4">
+                                    <Card
+                                    name={sermon.name} 
+                                    text={sermon.text}
+                                    
+                                 />
+                                </div>
+                            )
+                           })
+                        }
+                    </div>
+                    <button className="btn btn-info">All sermons</button>
                 </div>
             </div>
         </section>
     )
 }
+
 
 export default sermon;

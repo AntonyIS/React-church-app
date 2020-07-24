@@ -1,13 +1,10 @@
 import React from 'react';
 
-
-const card = (props)=>{
+const sermonCard =(props)=>{
     return (
-        <div className="card pt-2 text-center">
-            <div className="card-body ">
-                <h2>{props.name}</h2>
-                <hr />
-                <p>{props.speaker}</p>
+        <div className="card shadow p-3 mb-5 bg-white rounded">
+            <div className="card-body text-center">
+                <h5>{props.name}</h5>
                 <p>{props.text}</p>
             </div>
         </div>
@@ -15,4 +12,4 @@ const card = (props)=>{
 }
 
 
-export default card
+export default sermonCard;

@@ -1,29 +1,17 @@
-#Sermon{
-    background-color: #9E9E9E;
-}
-#Sermon .sermon-top{
-    height: auto;
-    color: #ffffff;
-
-
+.sermon{
+    background-color: #ffffff;
 }
 
-#Sermon .sermon-bottom{
-    background-image: url('../../assets/images/img1.jpg');
+#sermon-top{
+    background-image: url('../../assets/images/img2.jpg');
     background-color: #eee;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 30vh;
     color: #ffffff;
 }
 
-#Sermon .card{
-     background-image: url('../../assets/images/img1.jpg');
-     background-color: #eee;
-     background-size: cover;
-     background-repeat: no-repeat;
-     /* background-attachment: fixed; */
-     height: 100%;
-     color: #ffffff;
+
+#sermon-bottom{
+    
 }
