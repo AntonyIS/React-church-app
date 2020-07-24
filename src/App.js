@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar /> 
       <Hero />
-      <About />
     </div>
   );
 }

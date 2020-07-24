@@ -1,0 +1,9 @@
+#Hero{
+    background-image: url('../../assets/images/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+    color: #ffffff;
+
+}
