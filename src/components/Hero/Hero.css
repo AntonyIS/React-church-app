@@ -1,5 +1,6 @@
 #Hero{
     background-image: url('../../assets/images/img1.jpg');
+    background-color: #eee;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
