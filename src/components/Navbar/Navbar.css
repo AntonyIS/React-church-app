@@ -1,15 +1,43 @@
+.Navbar{
+    color: #ffffff;
+}
 #search-form{
     border:1px solid #eee;
     border-radius: 20px ;
     text-align: center;
     width: 200px;
+    background: transparent;
 }
 
 #cust_btn{
- 
+    border:1px solid #eee;
     border-radius: 20px ;
+    color: #ffffff;
 }
 #cust_btn:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     border-radius: 20px ;
+    color: #ffffff;
+}
+
+#menu-area.custom_nav{
+	background: #436779 ;
+	z-index:999;
+
+}
+
+#menu-area.custom_nav #login_link {
+	border:1px solid #0275d8 ;
+}
+#menu-area.custom_nav  {
+	color: #ffffff ;
+	margin-right:2px
+}
+
+
+.nav-link:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 15px ;
+    color: #ffffff;
+    padding: 7px;
 }

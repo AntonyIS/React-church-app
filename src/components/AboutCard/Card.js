@@ -15,8 +15,7 @@ const card = (props)=>{
        
     }
     return (
-        <div className="card  text-center shadow p-3 mb-5 bg-white rounded" style={cardStyle}>
-           
+        <div className="card  text-center card shadow p-3 mb-5 bg-white rounded" style={cardStyle} key={props.mykey}>  
             <div className="card-body ">
                 <h2>{props.name}</h2>
                 <hr />

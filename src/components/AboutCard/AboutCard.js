@@ -10,8 +10,14 @@ const aboutcard = (props) =>{
                 <div className="row">
                     {props.mycards.map((card, index)=>{
                         return(
-                             <div className="col-md-3 pt-5">
-                                 <Card name={card.name} speaker={card.speaker} text={card.text} img={card.bgImg} />
+                             <div className="col-md-3 col-lg-3 col-xl-3  pt-5">
+                                 <Card 
+                                    name={card.name} 
+                                    speaker={card.speaker} 
+                                    text={card.text} 
+                                    img={card.bgImg}
+                                    mykey={index}
+                                 />
                             </div>
                         )
                     })}

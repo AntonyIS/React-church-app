@@ -1,0 +1,26 @@
+#getinvolved-section{
+    /* text-align: center; */
+}
+
+.getinvolved-top{
+    background-image: url('../../assets/images/img2.jpg');
+    background-color: #eee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    color: #ffffff;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+    padding-top: 50px;
+    
+}
+
+
+.getinvolved-top h3{
+    margin-bottom: 10px;
+}
+
+.heading h1, h3 {
+    text-transform: uppercase;
+}

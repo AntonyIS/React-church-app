@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import AboutCard from './components/AboutCard/AboutCard';
 import Sermon from './components/Sermon/Sermon';
+import GetInvolved from './components/GetInvolved/Getinvloved';
 
 // images
 import img1 from './assets/images/img1.jpg';
@@ -34,6 +35,7 @@ class App extends React.Component {
         <Hero />
         <AboutCard mycards = {this.state.cards} />
         <Sermon sermonData = {this.state.cards.slice(0,6)} />
+        <GetInvolved />
       </div>
     );
   }
